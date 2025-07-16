@@ -19,48 +19,22 @@
       "role": "user"
     },
     {
-      "id": "3751",
-      "username": "Juan",
+      "id": "c750",
+      "username": "u3",
       "password": "1234",
       "role": "user"
     },
     {
-      "id": "3a63",
-      "username": "sal",
+      "id": "4440",
+      "username": "u4",
       "password": "1234",
       "role": "user"
-    },
-    {
-      "id": "ec5c",
-      "username": "per",
-      "password": "1234",
-      "role": "user"
-    },
-    {
-      "id": "eee0",
-      "username": "por",
-      "password": "123",
-      "role": "user"
-    },
-    {
-      "id": "b3e0",
-      "nameEvent": "asdf",
-      "description": "asdfafe",
-      "date": "2025-07-27",
-      "capacity": "123"
-    },
-    {
-      "id": "5360",
-      "nameEvent": "asdf",
-      "description": "asdasd",
-      "date": "2025-07-19",
-      "capacity": "12"
     }
   ],
   "events": [
     {
       "id": 3,
-      "nameevent": "Maverick",
+      "nameEvent": "Maverick",
       "description": "el evneto es un evento de prueba",
       "capacity": 12,
       "date": "08-feb-2026"

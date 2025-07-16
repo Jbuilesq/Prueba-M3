@@ -1,0 +1,120 @@
+/* Estilos básicos para el cuerpo de la página */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+    color: #333;
+}
+
+/* Contenedor principal para centrar el contenido */
+.container {
+    width: 100%;
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 20px;
+    align-self: center;
+}
+
+/* Estilos para la barra de navegación */
+#nav-login {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-bottom: 20px;
+    background-color: #333;
+    padding: 10px 20px;
+}
+
+#nav-login a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 5px 10px;
+}
+
+#nav-login a:hover {
+    background-color: #555;
+    border-radius: 5px;
+}
+
+/* Estilo para las secciones del formulario */
+section {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+/* Estilos para los formularios */
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+form label {
+    font-size: 14px;
+    font-weight: bold;
+}
+
+form input {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    outline: none;
+}
+
+form input:focus {
+    border-color: #007bff;
+}
+
+form button {
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+form button:hover {
+    background-color: #0056b3;
+}
+
+/* Estilo para enlaces en el formulario */
+form a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+form a:hover {
+    text-decoration: underline;
+}
+
+/* Estilos para el mensaje y enlaces adicionales */
+#message {
+    font-size: 14px;
+    color: #f44336;
+}
+
+p {
+    font-size: 14px;
+    color: #333;
+    text-align: center;
+}
+
+/* Responsive design: ajustes para pantallas pequeñas */
+@media (max-width: 768px) {
+    #nav-login {
+        justify-content: center;
+        gap: 10px;
+    }
+
+    form {
+        width: 100%;
+    }
+}
